@@ -1,5 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
+import Titles from '../Titles';
+import Link from 'next/link';
 
 import instagram from "src/images/social-media-logos/instagram.png";
 import spotify from 'src/images/social-media-logos/spotify.png'
@@ -8,25 +10,27 @@ import youtube from 'src/images/social-media-logos/youtube.png'
 import twitter from 'src/images/social-media-logos/twitter.png'
 
 const logoImages = [
-    { name: instagram, url: "/", },
-    { name: spotify, url: "/" },
-    { name: tiktok, url: "/" },
-    { name: youtube, url: "/" },
-    { name: twitter, url: "/" },
+  { name: instagram, url: "https://www.instagram.com/nexodesigners/", },
+  { name: spotify, url: "https://open.spotify.com/intl-es" },
+  { name: tiktok, url: "https://www.tiktok.com/" },
+  { name: youtube, url: "https://www.youtube.com/" },
+  { name: twitter, url: "https://twitter.com/" },
 ]
 
 const SocialMedia = () => {
   return (
     <div className='lg:px-sectionSides mm:px-sectionSidesMobile pt-sectionTop pb-sectionBottom w-full flex justify-center'>
         <div className=' flex flex-col justify-center items-center w-[60vw] border rounded-3xl p-[2rem] border-primary'>
-            <h3 className='text-white text-3xl text-center'>Nuestras Redes</h3>
-            <div className='flex w-full justify-between px-16 mt-[1.4rem]'>
+            <Titles>Nuestras redes</Titles>
+            <div className='flex w-full justify-between px-16'>
             {logoImages.map((image, id) => (
+              <Link target='_blank' href={image.url}>
           <Image
             key={id}
             src={image.name}
-            className='h-[50px] w-[50px] object-contain'
+            className='h-[40px] w-[50px] object-contain'
           />
+        </Link>
         ))}
             </div>
         </div>
