@@ -6,6 +6,8 @@ import { Banner } from '../../components/Banner'
 import SocialMedia from '../../components/SocialMedia'
 import { LatestChapters } from '../../components/LatestChapters'
 import FeaturedClips from '../../components/FeaturedClips'
+import Sponsors from '../../components/Sponsors'
+import AboutUs from '../../components/AboutUs'
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
       <SocialMedia />
       <LatestChapters />
       <FeaturedClips />
+      <Sponsors />
+      <AboutUs />
       <Footer />
     </main>
   )
