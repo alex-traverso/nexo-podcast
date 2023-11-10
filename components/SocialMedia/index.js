@@ -17,10 +17,10 @@ const logoImages = [
 
 const SocialMedia = () => {
   return (
-    <div className='w-full h-[15rem] flex justify-center'>
-        <div className=' flex flex-col justify-center items-center w-[60vw] border rounded-3xl border-primary'>
+    <div className='lg:px-sectionSides mm:px-sectionSidesMobile pt-sectionTop pb-sectionBottom w-full flex justify-center'>
+        <div className=' flex flex-col justify-center items-center w-[60vw] border rounded-3xl p-[2rem] border-primary'>
             <h3 className='text-white text-3xl text-center'>Nuestras Redes</h3>
-            <div className='flex w-full justify-between px-16 mt-[2rem]'>
+            <div className='flex w-full justify-between px-16 mt-[1.4rem]'>
             {logoImages.map((image, id) => (
           <Image
             key={id}

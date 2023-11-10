@@ -13,9 +13,23 @@ export const chaptersPort = [
   {
     name: chapter2,
     url: "/",
-    title: "Navegando el Futuro del Diseño: Tendencias, IA y Superación Freelancer",
-    time: "01:56:28",
-    date: "06/11/2023",
+    title: "-",
+    time: "-",
+    date: "-",
+  },
+  {
+    name: chapter2,
+    url: "/",
+    title: "-",
+    time: "-",
+    date: "-",
+  },
+  {
+    name: chapter2,
+    url: "/",
+    title: "-",
+    time: "-",
+    date: "-",
   },
   
  

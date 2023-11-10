@@ -5,6 +5,7 @@ import Footer from '../../components/Footer'
 import { Banner } from '../../components/Banner'
 import SocialMedia from '../../components/SocialMedia'
 import { LatestChapters } from '../../components/LatestChapters'
+import FeaturedClips from '../../components/FeaturedClips'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Banner />
       <SocialMedia />
       <LatestChapters />
+      <FeaturedClips />
       <Footer />
     </main>
   )
