@@ -17,7 +17,7 @@ module.exports = {
         lightestBg: "#EDEDED",
         light: "#F5F5F5",
         lightDarkBg: "#d7d7d7",
-        darkGrey: "#171717",
+        darkGrey: "#121212",
         lightGrey: "#BDBDBD",
         lightestGrey: "#232323",
         dark: "#0F0F0F",

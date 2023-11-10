@@ -11,17 +11,17 @@ const NavBar = () => {
 
     let Links = [
         { name: "Home", link: "home" },
-        { name: "Comunidad", link: "community" },
-        { name: "Episodios", link: "chapters" },
-        { name: "Sobre nosotros", link: "aboutUs" },
-        { name: "Contacto", link: "contact" },
+        { name: "Comunidad", link: "comunidad" },
+        { name: "Episodios", link: "episodios" },
+        { name: "Sobre nosotros", link: "sobrenosotros" },
+        { name: "Contacto", link: "contacto" },
       ];
 
   const [open, setOpen] = useState(false);
 
   return (
     <div className='shadow-md w-full fixed top-0 left-0 z-50'>
-      <div className='md:flex items-center justify-between bg-light dark:bg-lightestGrey py-4 md:px-10 px-7'>
+      <div className='md:flex items-center justify-between bg-darkGrey py-4 md:px-10 px-7'>
         <div
           className='text-2xl cursor-pointer flex items-center 
       text-gray-800'
@@ -51,14 +51,14 @@ const NavBar = () => {
           <div>
             {open ? (
               <Close
-                className='stroke-black dark:stroke-white'
+                className='stroke-white'
                 width={30}
                 height={30}
                 strokeWidth={2}
               />
             ) : (
               <Menu
-                className='stroke-black dark:stroke-white'
+                className='stroke-white'
                 width={30}
                 height={30}
                 onClick={() => {
@@ -69,7 +69,7 @@ const NavBar = () => {
           </div>
         </div>
         <ul
-          className={`font-medium mm:flex mm:flex-col mm:items-end md:flex md:flex-row md:items-center md:pb-0 pb-12 absolute md:static mm:bg-lightestBg mm:dark:bg-lightestGrey  md:bg-transparent md:dark:bg-transparent  md:z-auto z-[-1] right-0 w-[60%] mm:h-screen md:h-auto md:w-auto md:pl-0 pr-10 last:pr-0 transition-all duration-500 ease-in ${
+          className={`font-medium mm:flex mm:flex-col mm:items-end md:flex md:flex-row md:items-center md:pb-0 pb-12 absolute md:static mm:bg-darkGrey md:bg-transparent  md:z-auto z-[-1] right-0 w-[60%] mm:h-screen md:h-auto md:w-auto md:pl-0 pr-10 last:pr-0 transition-all duration-500 ease-in ${
             open ? "top-20 " : "top-[-1000px]"
           }`}
         >
@@ -85,7 +85,7 @@ const NavBar = () => {
                 offset={-80}
                 duration={500}
                 to={link.link}
-                className='text-black dark:text-white hover:text-primary dark:hover:text-primary duration-500'
+                className='text-white hover:text-primary duration-500'
               >
                 {link.name}
               </Link>
