@@ -6,11 +6,11 @@ export const Newsletter = () => {
     <div className="lg:px-sectionSides mm:px-sectionSidesMobile pt-sectionTop pb-sectionBottom w-full flex justify-center mx-auto max-w-7xl px-6">
     <div className='h-auto w-full rounded-3xl bg-gradient-to-r from-transparent to-primary p-[2px]'>
 
-    <div className="bg-darkGrey w-full isolate overflow-hidden px-6 py-24 shadow-2xl rounded-2xl sm:rounded-3xl sm:px-24 xl:py-32">
+    <div className="bg-darkGrey w-full overflow-hidden px-6 py-24 shadow-2xl rounded-2xl sm:rounded-3xl sm:px-24 xl:py-32">
        
-        <h2 className="max-w-2xl text-center text-3xl font-bold tracking-tight text-white sm:text-4xl">Suscribite a nuestro Newsletter
+        <h2 className="text-center text-3xl font-bold tracking-tight text-white sm:text-4xl">Suscribite a nuestro Newsletter
         </h2>
-        <p className="mx-auto mt-2 max-w-xl text-center text-lg leading-8 text-gray-300">
+        <p className="mt-2 text-center text-gray-300">
         Suscribite a nuestro Newsletter para estar siempre al tanto de la última información.
         </p>
 
