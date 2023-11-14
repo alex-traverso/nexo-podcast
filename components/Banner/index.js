@@ -17,8 +17,8 @@ export const Banner = () => {
           nuestros capítulos recientes y mantenete al día con las últimas
           tendencias en el diseño creativo!
         </p>
-        <Button href="/#contacto" rel="noreferrer">
-          CONTACTO
+        <Button href="/episodio" rel="noreferrer">
+          ESCUCHAR
         </Button>
       </div>
       <Image
