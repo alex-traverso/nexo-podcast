@@ -22,18 +22,18 @@ const AboutUs = () => {
             <p
               className={`text-white ${roboto.className} mm:text-sm lg:text-base `}
             >
-              Nexo Spotlight es una apasionante extensión de la marca Nexo,
-              diseñada específicamente para servir como faro de conocimiento,
-              inspiración y crecimiento para la comunidad de diseñadores
-              freelancers. En Nexo Spotlight, nos enfocamos en abordar temas
-              cruciales, desde tendencias de diseño hasta cuestiones
-              tecnológicas emergentes que afectan a los diseñadores. Nuestra
-              misión es proporcionar recursos educativos valiosos, entrevistas
-              perspicaces y discusiones relevantes que equipen a los diseñadores
-              freelance con las herramientas y la información necesarias para
-              alcanzar su máximo potencial. Creemos en fomentar el aprendizaje
-              continuo y la inspiración constante, y estamos entusiasmados por
-              compartir este viaje contigo como parte de la familia Nexo.
+              Nexo Spotlight es una extensión de la marca Nexo, diseñada
+              específicamente para servir como faro de conocimiento, inspiración
+              y crecimiento para la comunidad de diseñadores freelancers. En
+              Nexo Spotlight, nos enfocamos en abordar temas cruciales, desde
+              tendencias de diseño hasta cuestiones tecnológicas emergentes que
+              afectan a los diseñadores. Nuestra misión es proporcionar recursos
+              educativos valiosos, entrevistas perspicaces y discusiones
+              relevantes que equipen a los diseñadores freelance con las
+              herramientas y la información necesarias para alcanzar su máximo
+              potencial. Creemos en fomentar el aprendizaje continuo y la
+              inspiración constante, y estamos entusiasmados por compartir este
+              viaje con vos como parte de la familia Nexo.
             </p>
           </div>
         </div>
