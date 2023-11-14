@@ -67,7 +67,7 @@ const NavBar = () => {
           {Links.map((link) => (
             <li
               key={link.name}
-              className="mm:mr-9 lg:text-xl md:text-lg w-max md:my-0 mt-8 tracking-wide cursor-pointer"
+              className="mm:mr-9 lg:text-xl md:text-lg w-max md:my-0 mt-8 tracking-wide cursor-pointer lg:last-of-type:mr-0"
             >
               <Link
                 href={link.link}
