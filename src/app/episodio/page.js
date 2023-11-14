@@ -22,8 +22,7 @@ const Episodio = () => {
             </div>
             <div className="mt-[1.4rem] w-full p-[2rem]">
               <h3 className="text-white text-2xl font-bold mb-4">
-                Navegando el Futuro del Diseño: Tendencias, IA y Superación
-                Freelancer
+                #NexoSpotlight: 'Diseño Freelance: Navegando el Futuro Creativo'
               </h3>
               <AudioPlayer src="audio/podcastAudio.mp3" controls />
               <p
