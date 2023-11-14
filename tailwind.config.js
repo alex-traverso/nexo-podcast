@@ -20,13 +20,14 @@ module.exports = {
         darkGrey: "#121212",
         lightGrey: "#BDBDBD",
         lightestGrey: "#232323",
+        darkness: "#0D0D0E",
         dark: "#0F0F0F",
         primary: "#FD7235",
       },
       padding: {
         sectionTop: "50px",
         sectionBottom: "75px",
-        sectionSides: "10rem",
+        sectionSides: "6rem",
         sectionSidesMobile: "2rem",
       },
       screens: {

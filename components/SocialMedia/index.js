@@ -20,20 +20,24 @@ const logoImages = [
 const SocialMedia = () => {
   return (
     <div className='lg:px-sectionSides mm:px-sectionSidesMobile pt-sectionTop pb-sectionBottom w-full flex justify-center'>
-        <div className=' flex flex-col justify-center items-center w-[60vw] border rounded-3xl p-[2rem] border-primary'>
+
+    <div className="rounded-xl bg-gradient-to-r from-transparent to-primary p-[2px]">
+        <div className='flex flex-col justify-center items-center mm:w-[70vw] lg:w-[55vw] rounded-xl p-[2rem] bg-darkGrey'>
             <Titles>Nuestras redes</Titles>
-            <div className='flex w-full justify-between px-16'>
+            <div className='flex w-full justify-between lg:px-16'>
             {logoImages.map((image, id) => (
               <Link target='_blank' href={image.url}>
           <Image
             key={id}
             src={image.name}
-            className='h-[40px] w-[50px] object-contain'
+            className='mm:h-[35px] mm:w-[30px] lg:h-[50px] lg:w-[50px] object-contain'
           />
         </Link>
         ))}
             </div>
         </div>
+      </div>
+
     </div>
   )
 }

@@ -6,7 +6,7 @@ export default function Contact() {
 
   return (
     <div
-      id='contact'
+      id='contacto'
       className='flex flex-col justify-center items-center w-full bg-lightestBg dark:bg-darkGrey pb-sectionBottom pt-sectionTop '
     >
       <Titles>Contacto</Titles>
@@ -17,7 +17,7 @@ export default function Contact() {
       <div className="w-full rounded-xl bg-gradient-to-r from-transparent to-primary p-[2px]">
         <input
           required
-          className=' bg-lightestGrey lg:p-3 mm:px-3 mm:py-2 w-full rounded-xl'
+          className=' bg-[#1A1A1A] lg:p-3 mm:px-3 mm:py-2 w-full rounded-xl'
           type='text'
           name='name'
           placeholder='Nombre'
@@ -27,7 +27,7 @@ export default function Contact() {
       <div className="w-full rounded-xl bg-gradient-to-r from-transparent to-primary p-[2px]">
         <input
           required
-          className=' bg-lightestGrey lg:p-3 mm:px-3 mm:py-2 w-full rounded-xl'
+          className=' bg-[#1A1A1A] lg:p-3 mm:px-3 mm:py-2 w-full rounded-xl'
           type='text'
           name='name'
           placeholder='Apellido'
@@ -37,7 +37,7 @@ export default function Contact() {
       <div className="w-full rounded-xl bg-gradient-to-r from-transparent to-primary p-[2px]">
         <input
           required
-          className='bg-lightestGrey lg:p-3 mm:px-3 mm:py-2 w-full rounded-xl'
+          className='bg-[#1A1A1A] lg:p-3 mm:px-3 mm:py-2 w-full rounded-xl'
           type='text'
           name='email'
           placeholder='Email'
@@ -47,7 +47,7 @@ export default function Contact() {
       <div className="w-full rounded-xl bg-gradient-to-r from-transparent to-primary p-[2px]"> 
         <textarea
           required
-          className='bg-lightestGrey lg:p-3 mm:px-3 mm:py-2 w-full resize-none h-48 rounded-xl'
+          className='bg-[#1A1A1A] lg:p-3 mm:px-3 mm:py-2 w-full resize-none h-48 rounded-xl'
           name='message'
           type='textarea'
           placeholder='Mensaje'
