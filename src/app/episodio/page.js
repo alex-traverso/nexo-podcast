@@ -4,6 +4,7 @@ import Titles from "../../../components/Titles";
 import { ChapterCard } from "../../../components/ChapterCard";
 import Image from "next/image";
 import nexoSpotlight from "src/images/nexo-spotlight.png";
+import AudioPlayer from "../../../components/AudioPlayer";
 
 import { roboto } from "@/app/layout";
 
@@ -24,7 +25,7 @@ const Episodio = () => {
                 Navegando el Futuro del Diseño: Tendencias, IA y Superación
                 Freelancer
               </h3>
-              <audio src="/" controls className="w-full my-6"></audio>
+              <AudioPlayer src="audio/podcastAudio.mp3" controls />
               <p
                 className={`text-white ${roboto.className} mm:text-sm lg:text-base `}
               >

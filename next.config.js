@@ -1,6 +1,15 @@
 // next.config.js
 module.exports = {
-    // Otras configuraciones...
-    scrollBehavior: true,
-  };
-  
+  webpack(config, options) {
+    config.module.rules.push({
+      test: /\.mp3$/,
+      use: {
+        loader: "file-loader",
+      },
+    });
+
+    return config;
+  },
+
+  scrollBehavior: true,
+};
