@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import "./globals.css";
 import localFont from "next/font/local";
@@ -38,7 +39,7 @@ const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" title={metadata.title} description={metadata.description}>
       <body className={nohemi.className}>
         <NavBar />
         {children}
